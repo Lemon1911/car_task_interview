@@ -1,16 +1,35 @@
-# interview_cars_app_task_ui_design
+# Car Task Interview
 
-A new Flutter project.
+This repository contains the Flutter UI implementation for the interview task. The project includes a responsive UI design for Mobile, Tablet, and PC, a dark mode toggle, basic user interface animations, and unit tests for key functionalities.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Responsive UI**: The UI adapts to different screen sizes (Mobile, Tablet, PC) using the `flutter_screenutil` package.
+- **Dark Mode Toggle**: A button in the AppBar allows users to switch between light and dark modes using GetX for state management.
+- **Basic UI Animations**: Implemented basic animations to enhance the user experience.
+- **Unit Tests**: Included unit tests for the model class and key functionalities.
+-
+- ### Directory Structure
 
-A few resources to get you started if this is your first Flutter project:
+```plaintext
+lib/
+├── core/
+│   └── colors.dart
+├── features/
+│   └── car_screen/
+│       ├── custom_widgets/
+│       │   ├── app_text_form_field.dart
+│       │   ├── car_card_info_widget.dart
+│       │   ├── car_card_widget.dart
+│       │   ├── category_widget.dart
+│       │   └── StoryDefault.dart
+│       └── screens/
+│           └── car_screen.dart
+├── theme_controller.dart
+└── car_app.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://github.com/Lemon1911/car_task_interview/assets/100084127/7c1c8711-67f2-4893-ac02-b86b54592267)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
