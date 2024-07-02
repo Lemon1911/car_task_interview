@@ -47,20 +47,19 @@ class AppTextFormField extends StatelessWidget {
         labelText: hint,
         errorStyle: const TextStyle(
           color: Colors.black,
-          fontWeight: FontWeight.w500,
+          fontWeight: FontWeight.w300,
           fontSize: 14,
         ),
         isDense: true,
         contentPadding: contentPadding ??
             EdgeInsets.symmetric(
-              horizontal: 16.w,
-              vertical: 14.h,
+              horizontal: 12.w,
+              vertical: 8.h,
             ),
         focusedBorder: focusBorder ??
             OutlineInputBorder(
               borderSide: BorderSide(
                 color: ColorsManager.grayLight,
-                width: 1.3.w,
               ),
               borderRadius: BorderRadius.circular(
                 16.r,
