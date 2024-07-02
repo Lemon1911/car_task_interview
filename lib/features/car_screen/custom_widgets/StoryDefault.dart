@@ -12,7 +12,7 @@ class StoryDefault extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.fromLTRB(10.w, 5.h, 10.w, 5.h),
+      padding: EdgeInsets.all(10.h),
       child: Column(
         children: [
           Stack(
@@ -31,6 +31,8 @@ class StoryDefault extends StatelessWidget {
                       child: Image.asset(
                         carImage,
                         fit: BoxFit.cover,
+                        width: 60.r,
+                        height: 60.r,
                       ),
                     ),
                   ),
@@ -44,6 +46,10 @@ class StoryDefault extends StatelessWidget {
           Text(
             carName,
             textDirection: TextDirection.rtl,
+            style: TextStyle(
+              fontSize: 14.sp,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ],
       ),
