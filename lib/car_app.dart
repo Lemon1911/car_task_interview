@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:interview_cars_app_task_ui_design/features/car_screen/car_screen.dart';
+import 'package:interview_cars_app_task_ui_design/features/car_screen/screens/car_screen.dart';
 
 class CarApp extends StatelessWidget {
   const CarApp({super.key});
