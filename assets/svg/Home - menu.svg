@@ -1,0 +1,12 @@
+<svg height="31.567" viewBox="0 0 45.35 31.567" width="45.35" xmlns="http://www.w3.org/2000/svg">
+    <g id="menu" transform="translate(-1 -4)">
+        <path d="M8,12H37.864" data-name="Path 25" fill="none" id="Path_25"
+            stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
+            transform="translate(6.486 7.783)" />
+        <path d="M3,6H44.35" data-name="Path 26" fill="none" id="Path_26" stroke="#fff"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+        <path d="M3,18H44.35" data-name="Path 27" fill="none" id="Path_27"
+            stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
+            transform="translate(0 15.567)" />
+    </g>
+</svg>
