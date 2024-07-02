@@ -28,7 +28,7 @@ lib/
 ├── theme_controller.dart
 └── car_app.dart
 
-![image](https://github.com/Lemon1911/car_task_interview/assets/100084127/7c1c8711-67f2-4893-ac02-b86b54592267)
+![image](https://github.com/Lemon1911/car_task_interview/assets/100084127/f1e9413c-d59f-4500-bed3-39f983a142a1)
 
 
 
