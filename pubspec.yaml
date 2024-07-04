@@ -22,7 +22,7 @@ dependencies:
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.0.10+1
   get: ^4.6.6
-
+  flutter_screen_lock: ^9.1.0
 
 dev_dependencies:
   flutter_test:
