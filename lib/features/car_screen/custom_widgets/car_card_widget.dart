@@ -35,7 +35,7 @@ class CarCardWidget extends StatelessWidget {
                 width: 1.sw,
                 height: 0.025.sh,
                 color: ColorsManager.mainWhite.withOpacity(0.6),
-                child: Text(
+                child: const Text(
                   "جى ام سى / الفقئة / الرابعة",
                   textAlign: TextAlign.center,
                 ),
@@ -45,7 +45,7 @@ class CarCardWidget extends StatelessWidget {
                 // Adjust this value to position the row half inside and half outside
                 right: 0,
                 left: 0,
-                child: Row(
+                child: const Row(
                   textDirection: TextDirection.rtl,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

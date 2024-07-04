@@ -24,7 +24,7 @@ class IconAvatar extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              NotificationWidget(
+              const NotificationWidget(
                 radiusOut: 15,
                 radiusIn: 9,
                 text: "",
@@ -40,7 +40,7 @@ class IconAvatar extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                     fontSize: 16.sp),
               ),
-              Spacer(),
+              const Spacer(),
               Text(
                 "كل السيارات",
                 textAlign: TextAlign.center,

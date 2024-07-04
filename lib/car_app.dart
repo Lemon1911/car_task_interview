@@ -17,7 +17,7 @@ class CarApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         initialRoute: '/',
         routes: {
-          '/': (context) => const CarScreen(),
+          '/': (context) => CarScreen(),
         },
       ),
     );

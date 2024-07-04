@@ -24,8 +24,8 @@ class CarCardInfoWidget extends StatelessWidget {
             "assets/svg/Car Page - Slindr.svg",
             height: 20.h,
           ),
-          Text("السعر"),
-          Text(
+          const Text("السعر"),
+          const Text(
             "12,700",
             style: TextStyle(
               fontWeight: FontWeight.w500,

@@ -28,7 +28,7 @@ class ElevatedTextWidget extends StatelessWidget {
               SvgPicture.asset(
                 image!,
                 height: 24.h,
-                colorFilter: ColorFilter.mode(
+                colorFilter: const ColorFilter.mode(
                   Colors.white,
                   BlendMode.srcIn,
                 ),
