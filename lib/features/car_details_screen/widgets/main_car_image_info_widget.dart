@@ -28,7 +28,7 @@ class MainCarImageInfoWidget extends StatelessWidget {
             "السعر",
             style: TextStyle(color: ColorsManager.grayLight, fontSize: 16.sp),
           ),
-          Text(
+          const Text(
             "12,700",
             style: TextStyle(
               fontWeight: FontWeight.bold,
