@@ -6,4 +6,5 @@ class ColorsManager {
   static const Color darkerGray = Color(0xff42455c);
   static const Color mainWhite = Color(0xffffffff);
   static const Color secondWhite = Color(0xfff7f7fd);
+  static const Color lightRed = Color(0xffff6600);
 }

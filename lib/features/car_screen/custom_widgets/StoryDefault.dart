@@ -12,7 +12,7 @@ class StoryDefault extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 5.h, horizontal: 10.h),
+      padding: EdgeInsets.all(10.h),
       child: Column(
         children: [
           Stack(

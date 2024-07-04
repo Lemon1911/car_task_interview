@@ -7,6 +7,7 @@ import 'package:interview_cars_app_task_ui_design/features/car_screen/custom_wid
 import '../custom_widgets/StoryDefault.dart';
 import '../custom_widgets/app_text_form_field.dart';
 import '../custom_widgets/category_widget.dart';
+import '../custom_widgets/notification_widget.dart';
 
 class CarScreen extends StatelessWidget {
   const CarScreen({super.key});
@@ -35,11 +36,26 @@ class CarScreen extends StatelessWidget {
           ),
         ],
         elevation: 0,
-        title: GestureDetector(
-          onTap: () {},
-          child: SvgPicture.asset(
-            "assets/svg/Home-Notification.svg",
-            height: 20.h,
+        title: Container(
+          width: 30,
+          height: 40,
+          child: Stack(
+            alignment: Alignment.topRight,
+            children: [
+              Positioned(
+                left: 0,
+                bottom: 0,
+                child: SvgPicture.asset(
+                  "assets/svg/Home-Notification.svg",
+                  height: 25.h,
+                ),
+              ),
+              Positioned(
+                right: 0.w,
+                top: 0.h,
+                child: NotificationWidget(),
+              ),
+            ],
           ),
         ),
       ),
