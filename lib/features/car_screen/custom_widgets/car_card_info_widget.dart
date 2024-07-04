@@ -25,7 +25,12 @@ class CarCardInfoWidget extends StatelessWidget {
             height: 20.h,
           ),
           Text("السعر"),
-          Text("12,700"),
+          Text(
+            "12,700",
+            style: TextStyle(
+              fontWeight: FontWeight.w500,
+            ),
+          ),
         ],
       ),
     );
