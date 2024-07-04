@@ -53,7 +53,11 @@ class CarScreen extends StatelessWidget {
               Positioned(
                 right: 0.w,
                 top: 0.h,
-                child: NotificationWidget(),
+                child: NotificationWidget(
+                  text: "2",
+                  radiusIn: 7,
+                  radiusOut: 9,
+                ),
               ),
             ],
           ),
@@ -140,10 +144,10 @@ class CarScreen extends StatelessWidget {
                       shrinkWrap: true,
                       physics: const NeverScrollableScrollPhysics(),
                       itemCount: 6,
-                      // Number of items in the grid
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2, // Number of columns
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                        crossAxisSpacing: 2.w,
+                        mainAxisSpacing: 10.h, // Number of columns
                         childAspectRatio: 1, // Aspect ratio of each item
                       ),
                       itemBuilder: (context, index) {

@@ -17,12 +17,11 @@ class CarCardWidget extends StatelessWidget {
         context,
         MaterialPageRoute(builder: (context) => const CarDetailsScreen()),
       ),
-      child: Card(
+      child: Container(
         child: Padding(
-          padding: EdgeInsets.only(
-              bottom: 40.h), // Adjust the padding to create space for the row
+          padding: EdgeInsets.only(bottom: 40.h),
           child: Stack(
-            clipBehavior: Clip.none, // Allow overflow
+            clipBehavior: Clip.none,
             children: [
               SizedBox(
                 height: 0.8.sh,
