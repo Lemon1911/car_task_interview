@@ -8,11 +8,11 @@ class CircularIconWidget extends StatelessWidget {
   final VoidCallback onPressed;
 
   const CircularIconWidget({
-    Key? key,
+    super.key,
     this.backgroundColor = ColorsManager.grayMid,
     required this.onPressed,
     this.image,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

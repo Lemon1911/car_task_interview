@@ -53,7 +53,7 @@ class CarScreen extends StatelessWidget {
               Positioned(
                 right: 0.w,
                 top: 0.h,
-                child: NotificationWidget(
+                child: const NotificationWidget(
                   text: "2",
                   radiusIn: 7,
                   radiusOut: 9,
@@ -119,6 +119,7 @@ class CarScreen extends StatelessWidget {
                         ),
                         suffixIcon: SvgPicture.asset(
                           "assets/svg/Home - Search.svg",
+                          height: 24.h,
                         ),
                       ),
                     ),

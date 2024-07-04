@@ -31,7 +31,7 @@ class DetailsTextBarWidget extends StatelessWidget {
               SvgPicture.asset(
                 imageIcon,
                 height: 19.h,
-                colorFilter: ColorFilter.mode(
+                colorFilter: const ColorFilter.mode(
                   Colors.black,
                   BlendMode.srcIn,
                 ),
@@ -43,7 +43,7 @@ class DetailsTextBarWidget extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Spacer(),
+              const Spacer(),
               Padding(
                 padding: EdgeInsets.only(left: 0.25.sw),
                 child: Text(

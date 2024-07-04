@@ -58,7 +58,7 @@ class AppTextFormField extends StatelessWidget {
             ),
         focusedBorder: focusBorder ??
             OutlineInputBorder(
-              borderSide: BorderSide(
+              borderSide: const BorderSide(
                 color: ColorsManager.grayLight,
               ),
               borderRadius: BorderRadius.circular(
@@ -84,13 +84,10 @@ class AppTextFormField extends StatelessWidget {
         hintText: hintText,
         suffixIcon: suffixIcon != null
             ? Padding(
-                padding: EdgeInsets.all(
-                    9.0.h), // Adjust the padding to make the icon smaller
-                child: SizedBox(
-                  height: 12.0.h, // Adjust the size as needed
-                  width: 12.0.h, // Adjust the size as needed
-                  child: suffixIcon,
-                ),
+                padding: EdgeInsets.only(
+                    right:
+                        30.0.w), // Adjust the padding to make the icon smaller
+                child: suffixIcon,
               )
             : null,
         fillColor: backgroundColor ?? Colors.white,
